@@ -22,16 +22,12 @@ class Employee extends Person{
   }
 }
 
-
 const person = new Person("alice",30);
 person.greet();
-
 
 const employee = new Employee("bob",45,"lead");
 employee.greet();
 employee.jobGreet();
-
-
 
 // Do not change code below this line
 window.Person = Person;
